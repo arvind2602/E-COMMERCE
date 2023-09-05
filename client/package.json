@@ -1,5 +1,5 @@
 {
-  "name": "e-comm",
+  "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,6 +21,7 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
   },
+  
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",

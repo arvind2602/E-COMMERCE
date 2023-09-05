@@ -1,6 +1,5 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { MongoClient } from 'mongodb';
 import cors from 'cors';
 
 const app = express();

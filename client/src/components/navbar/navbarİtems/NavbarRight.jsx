@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { AiOutlineSearch } from "react-icons/ai";
-import { AiOutlineHeart } from "react-icons/ai";
+import {BiUser} from "react-icons/bi";  
 import { SlBasket } from "react-icons/sl";
 import { useDispatch, useSelector } from 'react-redux';
 import { getCartTotal } from '../../../redux/CartSlice';
@@ -52,7 +52,7 @@ const NavbarRight = () => {
           className='outline-none bg-gray-200 items-center' type="text" placeholder='Arama Yap..' />
         <AiOutlineSearch className='cursor-pointer' size={26} />
       </div>
-      <AiOutlineHeart size={26} />
+      <BiUser size={36} onClick={} />
       <div className='relative'>
         <div onClick={() => navigate("cart")} className='absolute -top-3 -right-3 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center cursor-pointer'>{itemCount}</div>
         <SlBasket className='cursor-pointer' size={26} />
