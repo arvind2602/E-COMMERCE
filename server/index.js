@@ -25,7 +25,7 @@ moongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true })
 
 //  Routes for users auth 
 app.use('/', Register)
-app.use('/', Login) 
+app.use('/', Login)
 
 // Routes for admin auth
 app.use('/admin', adminRegister)
