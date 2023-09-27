@@ -1,5 +1,5 @@
 import express from 'express';
-import userSchema from '../models/user.js';
+import userSchema from '../../models/user.js';
 
 const Login = express.Router();
 Login.post('/login', async (req, res) => {
@@ -18,6 +18,7 @@ Login.post('/login', async (req, res) => {
         }
     } catch (error) {
         console.error(error.message).json({ message: "Server Error" })
-    }})
+    }
+})
 
 export default Login;
