@@ -1,12 +1,14 @@
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import auth from './routes/auth.js';
 import moongoose from 'mongoose';
 import dotenv from "dotenv";
 
-dotenv.config();
+// Routes for auth
+import Register from './routes/register.js';
+import Login from './routes/login.js';
 
+dotenv.config();
 
 const app = express();
 app.use(cors());
@@ -18,6 +20,5 @@ moongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true })
     .catch((err) => console.error(err.message))
 
 //  Routes for auth 
-app.use('/auth', auth)
-
-
+app.use('/auth', Register)
+app.use('/auth', Login) 
