@@ -20,7 +20,7 @@ const AdminHome = () => {
             <button>Logout</button>
 
 
-            <form onSubmit={HandleAddProduct} encType='multipart/form-data'>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            <form onSubmit={HandleAddProduct} encType='multipart/form-data'>
                 <input type='text' placeholder='Product Name' name="name" onChange={(e) => { setName(e.target.value) }} />
                 <input type='text' placeholder='Product Description' name="description" onChange={(e) => { setDescription(e.target.value) }} />
                 <input type='text' placeholder='Product Price' name="price" onChange={(e) => { setPrice(e.target.value) }} />

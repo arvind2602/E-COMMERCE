@@ -49,10 +49,12 @@ const NavbarRight = () => {
           ref={inputRef}
           style={inputStyle}
           onClick={handleInputClick}
-          className='outline-none bg-gray-200 items-center' type="text" placeholder='Arama Yap..' />
+          className='outline-none bg-gray-200 items-center' type="text" placeholder='Search..' />
         <AiOutlineSearch className='cursor-pointer' size={26} />
       </div>
       <BiUser size={36} />
+      <h1 style={{color:'black'}}>Hello</h1>
+    
       <div className='relative'>
         <div onClick={() => navigate("cart")} className='absolute -top-3 -right-3 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center cursor-pointer'>{itemCount}</div>
         <SlBasket className='cursor-pointer' size={26} />

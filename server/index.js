@@ -11,6 +11,7 @@ import Login from './routes/user/login.js';
 // Routes for admin auth
 import adminRegister from './routes/admin/adminRegister.js';
 import adminLogin from './routes/admin/adminLogin.js';
+import Product from './routes/admin/addProduct.js';
 
 dotenv.config();
 
@@ -30,4 +31,5 @@ app.use('/', Login)
 // Routes for admin auth
 app.use('/admin', adminRegister)
 app.use('/admin', adminLogin)
+app.use('/admin', Product)
 

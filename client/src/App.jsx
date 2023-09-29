@@ -7,6 +7,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Detail from "./pages/Detail";
 import Cart from "./pages/Cart";
 import Footer from "./components/home/footer/Footer";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+
 function App() {
   
 
@@ -20,6 +23,8 @@ function App() {
         <Route path="/" element={<Home/>}  />
         <Route path="/products/:id" element={<Detail/>}  />
         <Route path="/cart" element={<Cart/>}  />
+        <Route path="/login" element ={<Login/>} />
+        <Route path="/register" element ={<Register/>} />
       </Routes>
       <Footer/>
     </Router>
