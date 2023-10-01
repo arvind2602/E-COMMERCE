@@ -2,7 +2,7 @@ import express from 'express';
 import userSchema from '../../models/user.js';
 
 const Register = express.Router();
-
+//  This is for admin registration
 Register.post('/register', async (req, res) => {
     const { name, phone, email, password } = req.body;
     const user = await userSchema.findOne({ email })
