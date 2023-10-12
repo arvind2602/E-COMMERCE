@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import toast from "react-hot-toast";
 
 //import logo
-import cityShop from "../assests/cityShop.png";
+import Logo from "../assests/Logo.png";
 //import icons
 import { BsCartFill } from "react-icons/bs";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -57,7 +57,7 @@ function Header() {
 				</div>
 
 				<Link to="/" className="hidden md:block">
-					<img src={cityShop} alt="logo_image" className="w-8 h-8" />
+					<img src={Logo} alt="logo_image" className="w-18 h-8" />
 				</Link>
 
 				{/* nav items */}

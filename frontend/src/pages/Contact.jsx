@@ -137,13 +137,13 @@ function Contact() {
 									</svg>
 									<div>
 										<p className="text-gray-600">
-											1234 Main Street
+											90 feet Road
 										</p>
 										<p className="text-gray-600">
-											Modhubag, Dhaka
+											Kandivali, Mumbai
 										</p>
 										<p className="text-gray-600">
-											ZIP Code: 12345
+											PIN CODE : 400101
 										</p>
 									</div>
 								</div>
@@ -173,7 +173,7 @@ function Contact() {
 											href="mailto:contact@example.com"
 											className="text-blue-600 hover:underline"
 										>
-											cityShoporg@mail.com
+											thakurmart@mail.com
 										</a>
 									</div>
 								</div>
@@ -198,7 +198,7 @@ function Contact() {
 											href="tel:+11234567890"
 											className="text-blue-600 hover:underline"
 										>
-											+1 (123) 456-7890
+											9833911446
 										</a>
 									</div>
 								</div>

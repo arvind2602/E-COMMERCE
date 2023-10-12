@@ -1,5 +1,5 @@
 import React from "react";
-import about_us from "../assests/about_us.webp";
+import about_us from "../assests/about.jpg";
 
 function About() {
 	return (

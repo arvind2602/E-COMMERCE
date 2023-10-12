@@ -1,9 +1,9 @@
-## CityShop - FreshEats Online Store
+## Thakur Mart - FreshEats Online Store (ESD Project)
 
 
-Welcome to CityShop, your one-stop online store for all things fresh and delicious. Built with cutting-edge technologies and designed for an exceptional user experience, CityShop is the future of online grocery shopping.
+Welcome to Thakur Mart, your one-stop online store for all things fresh and delicious. Built with cutting-edge technologies and designed for an exceptional user experience, Thakur Mart is the future of online grocery shopping.
 
-## Some of CityShop Screenshots
+## Some of Thakur Mart Screenshots
 
 ![Screenshot from 2023-10-02 19-54-11](https://github.com/Khalidur-sujon/CityShop/assets/99888997/deb875fe-c655-467a-a17c-97f5b020b875)
 
@@ -13,7 +13,7 @@ Welcome to CityShop, your one-stop online store for all things fresh and delicio
 
 ## Features
 
--  **Responsive for All Devices**: CityShop is designed to provide a seamless experience on any device, whether you're shopping from your desktop or on the go with your mobile device.
+-  **Responsive for All Devices**: Thakur Mart is designed to provide a seamless experience on any device, whether you're shopping from your desktop or on the go with your mobile device.
 
 -  **User Sign Up and Login**: Easily create an account or log in to access personalized shopping, order history, and more.
 
@@ -51,28 +51,3 @@ Welcome to CityShop, your one-stop online store for all things fresh and delicio
 - Redux
 - Stripe API
 - Tailwind CSS
-
-## Live Demo
-
-Experience the flavors of CityShop by visiting [Live Demo](https://city-shop-store.vercel.app/)
-
-## Installation
-
-To run CityShop locally, follow these steps:
-
-1. Clone this repository.
- ```bash
-   git clone https://github.com/Khalidur-sujon/CityShop.git
-   ```
-2. Navigate to the project folder.
-```bash
-cd CityShop
-```
-3. Install dependencies using `npm install` for both the server and client folders.
-4. Set up your MongoDB database and provide the connection URI in the server configuration.
-5. Set up your Stripe API keys in the client configuration.
-6. Run the server and client using `npm start`.
-
-## Contributing
-
-We welcome contributions from the community. Whether it's bug fixes, feature enhancements, or documentation improvements, your help is greatly appreciated. 

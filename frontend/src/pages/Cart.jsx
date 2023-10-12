@@ -144,13 +144,13 @@ function Cart() {
 											<span className="font-medium">
 												cardholder Name:
 											</span>{" "}
-											tes
+											Arvind Gupta
 										</p>
 										<p>
 											<span className="font-medium">
 												Country:
 											</span>{" "}
-											Bangaldesh
+											India
 										</p>
 									</div>
 								</div>

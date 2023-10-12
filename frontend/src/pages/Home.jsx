@@ -23,12 +23,7 @@ function Home() {
 				</h1>
 
 				<p className="w-full text-sm sm:max-w-lg text-slate-600 tracking-wider mx-auto">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-					Animi rem eius earum facilis! Sit, atque distinctio sint
-					laborum a ipsa nostrum doloremque possimus? Esse sed vel ut
-					asperiores incidunt. Iste non facilis tempora est, quod odit
-					fugit vel obcaecati deleniti quis corporis, quaerat
-					inventore aliquam. Aperiam commodi nesciunt eius modi
+				"Welcome to Thakur Mart, your one-stop destination for all your grocery needs. At Thakur Mart, we are dedicated to making your grocery shopping experience convenient, affordable, and hassle-free. Browse through a wide selection of fresh produce, pantry essentials, delicious snacks, and household items, all from the comfort of your home. Our mission is to bring you the finest quality products, prompt delivery, and exceptional customer service. With Thakur Mart, grocery shopping has never been easier. Start filling your virtual cart today and let us take care of the rest, so you can spend more time on what truly matters. Join our growing family of satisfied customers and discover a new way to shop for groceries."
 				</p>
 				<button
 					type="button"
